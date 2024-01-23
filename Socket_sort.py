@@ -32,18 +32,3 @@ else :
     text2 = s.recv(len(MESSAGE2))
     print(str(text2))
 
-
-
-
-
-
-
-
-"""while True:
-    # accept connections from outside
-    (clientsocket, address) = s.accept()
-    # now do something with the clientsocket
-    # in this case, we'll pretend this is a threaded server
-    ct = client_thread(clientsocket)
-    ct.run()"""
-
